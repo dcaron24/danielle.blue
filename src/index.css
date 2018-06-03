@@ -11,3 +11,8 @@ body {
 #root {
   height: 100%;
 }
+
+.container-background {
+  height: 100%;
+  background-color: #dcfdf6;
+}
