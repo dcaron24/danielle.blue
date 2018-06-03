@@ -5,8 +5,10 @@ import './index.css';
 export default class About extends Component {
   render() {
     return (
-      <div>
-        {'About!!!'}
+      <div className='about-container'>
+        <span className='header-style'>
+          {'About!!!'}
+        </span>
       </div>
     );
   }
