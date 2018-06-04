@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
+import PageHeader from '../components/page-header';
+
 export default class Home extends Component {
   render() {
     return (
       <div className='container-background'>
-        <span className='header-style'>
-          {'danielle.blue coming soon...'}
-        </span>
+        <PageHeader text='danielle.blue coming soon...' />
       </div>
     );
   }

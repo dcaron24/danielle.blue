@@ -1,0 +1,10 @@
+.page-header-style {
+  color: #000000;
+  font-size: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
