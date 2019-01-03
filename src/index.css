@@ -1,18 +1,24 @@
 html {
-  height: 100%;
+  height: inherit;
   font-family: Nova Mono;
 }
 
 body {
-  height: 100%;
+  height: inherit;
   margin: unset;
 }
 
 #root {
-  height: 100%;
+  height: inherit;
 }
 
 .container-background {
-  height: 100%;
+  height: inherit;
   background-color: #dcfdf6;
+}
+
+.home-page-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }

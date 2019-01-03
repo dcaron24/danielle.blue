@@ -1,0 +1,11 @@
+.image-box-container {
+  width: 32%;
+  min-width: 400px;
+  margin: 25px 0;
+  height: auto;
+}
+
+.image-box-image {
+  max-width: 400px;
+  max-height: 400px;
+}
