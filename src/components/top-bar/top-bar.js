@@ -14,9 +14,9 @@ export default class TopBar extends Component {
             {'Home'}
           </div>
           <div
-            onClick={() => window.location.replace('/about')}
-            className={`top-bar-text ${this.props.active === '/about' ? 'active' : ''}`}>
-            {'About'}
+            onClick={() => window.location.replace('/gallery')}
+            className={`top-bar-text ${this.props.active === '/gallery' ? 'active' : ''}`}>
+            {'Gallery'}
           </div>
         </div>
       </Headroom>

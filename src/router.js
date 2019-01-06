@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 
 import Home  from './containers/home.js';
-import About from './containers/about.js';
+import Gallery from './containers/gallery.js';
 
 export default class Router extends Component {
   render() {
@@ -10,7 +10,7 @@ export default class Router extends Component {
       <BrowserRouter>
         <Switch>
           <Route path='/' exact component={Home} />
-          <Route path='/about' exact component={About} />
+          <Route path='/gallery' exact component={Gallery} />
           <Route path='/*' render={() => <Redirect to='/'/>} />
         </Switch>
       </BrowserRouter>
