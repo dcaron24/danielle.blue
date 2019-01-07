@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Headroom from 'react-headroom';
 
+import Button from '../button';
+
 import './index.css';
 
 export default class TopBar extends Component {
@@ -8,16 +10,19 @@ export default class TopBar extends Component {
     return (
       <Headroom>
         <div className='top-bar-container'>
-          <div
+
+          <Button
+            text='Home'
+            variant='border'
             onClick={() => window.location.replace('/')}
-            className={`top-bar-text ${this.props.active === '/' ? 'active' : ''}`}>
-            {'Home'}
-          </div>
-          <div
+            className={this.props.active === '/' ? 'active' : ''} />
+
+          <Button
+            text='Gallery'
+            variant='border'
             onClick={() => window.location.replace('/gallery')}
-            className={`top-bar-text ${this.props.active === '/gallery' ? 'active' : ''}`}>
-            {'Gallery'}
-          </div>
+            className={this.props.active === '/gallery' ? 'active' : ''}/>
+
         </div>
       </Headroom>
     );

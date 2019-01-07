@@ -1,0 +1,55 @@
+.button-container {
+  display: inline-block;
+  position: relative;
+  padding: 25px 80px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  background: #39c0a1;
+  color: #ffffff;
+  box-shadow: 0 6px #31a086;
+  border-radius: 5px;
+  -webkit-transition: 0.2s all ease-out;
+  -moz-transition: 0.2s all ease-out;
+  -ms-transition: 0.2s all ease-out;
+  -o-transition: 0.2s all ease-out;
+  transition: 0.2s all ease-out;
+  font-family: 'Bungee';
+  font-size: 20px;
+}
+.button-container:hover {
+  box-shadow: 0 8px #31a086;
+  -webkit-transform: translate(0px, -2px);
+  -moz-transform: translate(0px, -2px);
+  -ms-transform: translate(0px, -2px);
+  -o-transform: translate(0px, -2px);
+}
+.button-container:active {
+  box-shadow: 0 0 #31a086;
+  -webkit-transform: translate(0px, 6px);
+  -moz-transform: translate(0px, 6px);
+  -ms-transform: translate(0px, 6px);
+  -o-transform: translate(0px, 6px);
+  -webkit-transition: 0.1s all ease-out;
+  -moz-transition: 0.1s all ease-out;
+  -ms-transition: 0.1s all ease-out;
+  -o-transition: 0.1s all ease-out;
+  transition: 0.1s all ease-out;
+}
+
+.button-border-container {
+  font-size: 20px;
+  color: var(--blue);
+  font-family: 'Bungee';
+  text-transform: uppercase;
+
+  border: 1px solid var(--blue);
+
+  margin-right: 25px;
+  margin-top: 13px;
+  height: fit-content;
+  padding: 6px 12px;
+
+  cursor: pointer;
+}
