@@ -19,7 +19,7 @@ export default class Gallery extends Component {
         {/* active is a custom property, it is made up */}
         <TopBar active={this.props.location.pathname} />
         {/* brackets mean variables */}
-        <PageHeader text='danielle.blue coming soon...' />
+        <PageHeader text='Gallery' />
 
         <div className='gallery-content'>
           <ImageBox image='https://yt3.ggpht.com/a-/ACSszfFE3ueNAPUAV9ybUfRL0pE9e05zQ05e9y2c1A=s900-mo-c-c0xffffffff-rj-k-no'/>

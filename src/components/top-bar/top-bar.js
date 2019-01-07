@@ -23,6 +23,12 @@ export default class TopBar extends Component {
             onClick={() => window.location.replace('/gallery')}
             className={this.props.active === '/gallery' ? 'active' : ''}/>
 
+          <Button
+            text='Contact'
+            variant='border'
+            onClick={() => window.location.replace('/contact')}
+            className={this.props.active === '/contact' ? 'active' : ''}/>
+
         </div>
       </Headroom>
     );

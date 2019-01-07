@@ -9,8 +9,15 @@ const HomePageContent = (props) => {
     <div className='home-page-content'>
 
       <div className='home-page-text'>
-        {'Hello blah blah blah'}
-        {/* <span>dfgdfgdfg</span> */}
+        {'My name is Danielle Caron.'}
+        <br />
+        {'I am an engineering student who enjoys art.'}
+        <br />
+        {'Feel free to take a look at the gallery:)'}
+        <br />
+        {'For any inquiries, email me @theartofdanielle@gmail.com'}
+        <br />
+        {'or follow me on instagram @sk8blossom'}
       </div>
       <Button
         text='Gallery'
