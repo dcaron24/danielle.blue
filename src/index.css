@@ -20,15 +20,8 @@ body {
   /* background-color: var(--blue); */
 }
 
-.home-page-content {
+.gallery-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-}
-
-.home-page-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }

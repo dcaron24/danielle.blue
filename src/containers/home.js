@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Button from '../components/button';
+import HomePageContent from '../components/home-page-content';
 import TopBar from '../components/top-bar';
 import PageHeader from '../components/page-header';
 
@@ -12,11 +13,9 @@ export default class Home extends Component {
         <TopBar active={this.props.location.pathname} />
 
         <PageHeader text='Hello' />
-        <div className='home-page-content'>
-          <Button
-            text='Gallery'
-            onClick={() => console.log('Hello')} />
-        </div>
+
+        <HomePageContent />
+
       </div>
     );
   }
