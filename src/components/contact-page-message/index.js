@@ -12,8 +12,9 @@ const ContactMessage = (props) => {
         {'So shoot me an email!'}
         <br />
         {"You can also follow me on instagram, if that's your style"}
-      {/* YO LINK THE SK8 */}
+        {/* YO LINK THE SK8 */}
       </div>
+
       <Button
         text='Send it!'
         onClick={() => console.log('Hello')} />

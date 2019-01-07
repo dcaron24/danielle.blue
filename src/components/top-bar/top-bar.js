@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import { withRouter } from 'react-router';
 import Headroom from 'react-headroom';
 
 import Button from '../button';
 
 import './index.css';
 
-export default class TopBar extends Component {
+class TopBar extends Component {
   render() {
     return (
       <Headroom>
@@ -14,19 +15,19 @@ export default class TopBar extends Component {
           <Button
             text='Home'
             variant='border'
-            onClick={() => window.location.replace('/')}
+            onClick={() => this.props.history.push('/')}
             className={this.props.active === '/' ? 'active' : ''} />
 
           <Button
             text='Gallery'
             variant='border'
-            onClick={() => window.location.replace('/gallery')}
+            onClick={() => this.props.history.push('/gallery')}
             className={this.props.active === '/gallery' ? 'active' : ''}/>
 
           <Button
             text='Contact'
             variant='border'
-            onClick={() => window.location.replace('/contact')}
+            onClick={() => this.props.history.push('/contact')}
             className={this.props.active === '/contact' ? 'active' : ''}/>
 
         </div>
@@ -34,3 +35,5 @@ export default class TopBar extends Component {
     );
   }
 }
+
+export default withRouter(TopBar);

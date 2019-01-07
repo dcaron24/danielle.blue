@@ -1,4 +1,5 @@
 import React from 'react';
+import { withRouter } from 'react-router';
 
 import Button from '../button';
 
@@ -17,9 +18,9 @@ const HomePageContent = (props) => {
       </div>
       <Button
         text='Gallery'
-        onClick={() => console.log('Hello')} />
+        onClick={() => props.history.push('/gallery')} />
     </div>
   )
 }
 
-export default HomePageContent;
+export default withRouter(HomePageContent);
