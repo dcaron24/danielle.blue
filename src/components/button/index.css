@@ -1,4 +1,5 @@
 .button-container {
+  outline: none;
   display: inline-block;
   position: relative;
   padding: 25px 80px;
@@ -51,5 +52,6 @@
   height: fit-content;
   padding: 6px 12px;
 
+  outline: none;
   cursor: pointer;
 }
