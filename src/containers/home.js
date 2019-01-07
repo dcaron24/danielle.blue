@@ -12,11 +12,11 @@ export default class Home extends Component {
         <TopBar active={this.props.location.pathname} />
 
         <PageHeader text='Hello' />
-
-        <Button
-          text='GALLERY'
-          onClick={() => console.log('Hello')} />
-
+        <div className='home-page-content'>
+          <Button
+            text='Gallery'
+            onClick={() => console.log('Hello')} />
+        </div>
       </div>
     );
   }

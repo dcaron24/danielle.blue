@@ -1,7 +1,9 @@
 html {
   height: inherit;
   --light-blue: #dcfdf6;
-  --blue: #32306f
+  --blue: #32306f;
+  --seagreen: #39c0a1;
+  --white: #ffffff;
 }
 
 body {
@@ -22,4 +24,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.home-page-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
