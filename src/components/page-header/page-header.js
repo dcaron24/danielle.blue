@@ -11,4 +11,3 @@ export default class PageHeader extends Component {
     );
   }
 }
-// comments

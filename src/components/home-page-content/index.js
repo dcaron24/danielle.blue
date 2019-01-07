@@ -14,10 +14,6 @@ const HomePageContent = (props) => {
         {'I am an engineering student who enjoys art.'}
         <br />
         {'Feel free to take a look at the gallery:)'}
-        <br />
-        {'For any inquiries, email me @theartofdanielle@gmail.com'}
-        <br />
-        {'or follow me on instagram @sk8blossom'}
       </div>
       <Button
         text='Gallery'
