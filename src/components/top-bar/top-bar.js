@@ -13,18 +13,21 @@ class TopBar extends Component {
         <div className='top-bar-container'>
 
           <Button
+            smallOnMobile
             text='Home'
             variant='border'
             onClick={() => this.props.history.push('/')}
             className={this.props.active === '/' ? 'active' : ''} />
 
           <Button
+            smallOnMobile
             text='Gallery'
             variant='border'
             onClick={() => this.props.history.push('/gallery')}
             className={this.props.active === '/gallery' ? 'active' : ''}/>
 
           <Button
+            smallOnMobile
             text='Contact'
             variant='border'
             onClick={() => this.props.history.push('/contact')}

@@ -8,7 +8,12 @@ const Button = (props) => {
     return(
       <button
         onClick={props.onClick}
-        className={`button-container button-border-container ${props.className ? props.className : ''}`}>
+        className={`
+          button-container
+          button-border-container
+          ${props.smallOnMobile ? 'button-container-mobile' : ''}
+          ${props.className ? props.className : ''}
+        `}>
         { props.text }
       </button>
     );
@@ -17,7 +22,11 @@ const Button = (props) => {
   return(
     <button
       onClick={props.onClick}
-      className={`button-container ${props.className ? props.className : ''}`}>
+      className={`
+        button-container
+        ${props.smallOnMobile ? 'button-container-mobile' : ''}
+        ${props.className ? props.className : ''}
+      `}>
       { props.text }
     </button>
   );

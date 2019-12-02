@@ -41,3 +41,19 @@
   outline: none;
   cursor: pointer;
 }
+
+@media(max-width: 500px) {
+  .button-container-mobile {
+    font-size: 16px;
+    margin-right: 8px;
+    margin-left: 8px;
+  }
+}
+
+@media(max-width: 340px) {
+  .button-container-mobile {
+    font-size: 14px;
+    margin-right: 6px;
+    margin-left: 6px;
+  }
+}

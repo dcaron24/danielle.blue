@@ -1,11 +1,28 @@
 .image-box-container {
   width: 32%;
   min-width: 400px;
-  margin: 25px 0;
+  margin: auto;
   height: auto;
 }
 
 .image-box-image {
   max-width: 400px;
-  max-height: 400px;
+}
+
+@media(max-width: 500px) {
+  .image-box-container {
+    min-width: 350px;
+  }
+  .image-box-image {
+    max-width: 350px;
+  }
+}
+
+@media(max-width: 340px) {
+  .image-box-container {
+    min-width: 300px;
+  }
+  .image-box-image {
+    max-width: 300px;
+  }
 }
