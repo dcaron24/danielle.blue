@@ -24,8 +24,13 @@ export default class Gallery extends Component {
         <PageHeader text='Gallery' />
 
         <div className='gallery-content'>
-          {galleryImages.map(imageUrl => {
-            return <ImageBox image={imageUrl} />
+          {galleryImages.map(imageObject => {
+            return (
+              <ImageBox
+                name={imageObject.title}
+                image={imageObject.imageUrl}
+              />
+            );
           })}
         </div>
       </div>

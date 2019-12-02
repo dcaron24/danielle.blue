@@ -6,7 +6,11 @@ export default class ImageBox extends Component {
   render() {
     return (
       <div className='image-box-container'>
-        <img className='image-box-image' src={this.props.image} alt='content'/>
+        <img
+          className='image-box-image'
+          src={this.props.image}
+          alt={this.props.name}
+        />
       </div>
     );
   }
