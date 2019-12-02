@@ -9,15 +9,16 @@ const ContactMessage = (props) => {
     <div className='contact-page-message'>
 
       <div className='contact-message'>
-        {'So shoot me an email!'}
+        {"I'm always looking for new projects!"}
         <br />
-        {"You can also follow me on instagram, if that's your style"}
-        {/* YO LINK THE SK8 */}
+        {`My email is dcaron24@gmail.com.`}
+        <br />
+        {"You can also follow me on Instagram @sk8blossom."}
       </div>
 
       <Button
-        text='Send it!'
-        onClick={() => console.log('Hello')} />
+        text='Email me'
+        onClick={() => window.open('mailto:dcaron24@gmail.com')} />
     </div>
   )
 }
