@@ -4,6 +4,8 @@ import React, { Component } from 'react';
 import TopBar from '../components/top-bar';
 import PageHeader from '../components/page-header';
 import ImageBox from '../components/image-box';
+
+import galleryImages from '../gallery-images.js';
 // imported files
 // .. goes back a folder
 
@@ -22,12 +24,9 @@ export default class Gallery extends Component {
         <PageHeader text='Gallery' />
 
         <div className='gallery-content'>
-          <ImageBox image='https://yt3.ggpht.com/a-/ACSszfFE3ueNAPUAV9ybUfRL0pE9e05zQ05e9y2c1A=s900-mo-c-c0xffffffff-rj-k-no'/>
-          <ImageBox image='https://i.ytimg.com/vi/qsxcVsFDDoA/maxresdefault.jpg'/>
-          <ImageBox image='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/BackSmithGrind.jpg/220px-BackSmithGrind.jpg'/>
-          <ImageBox image='https://yt3.ggpht.com/a-/ACSszfFE3ueNAPUAV9ybUfRL0pE9e05zQ05e9y2c1A=s900-mo-c-c0xffffffff-rj-k-no'/>
-          <ImageBox image='https://i.ytimg.com/vi/qsxcVsFDDoA/maxresdefault.jpg'/>
-          <ImageBox image='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/BackSmithGrind.jpg/220px-BackSmithGrind.jpg'/>
+          {galleryImages.map(imageUrl => {
+            return <ImageBox image={imageUrl} />
+          })}
         </div>
       </div>
     );
