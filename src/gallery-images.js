@@ -8,13 +8,13 @@ export default [
   {
     title: 'Jack the Yorkie',
     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/jack.1.jpg',
-    category: ['pencil','portrait'],
+    category: ['pencil','portrait','commission'],
     date: '07-01-2018'
   },
   {
     title: 'Pippie the Poodle',
     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/poodle.1.jpg',
-    category: ['pencil','portrait'],
+    category: ['pencil','portrait','commission'],
     date: '10-01-2018'
   },
   {
@@ -260,7 +260,7 @@ export default [
    {
      title: 'Jacob and Gabby',
      imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/jacob+and+gabby.jpg',
-     category: ['pencil'],
+     category: ['pencil','commission'],
      date: '09-11-2018'
    },
    {
@@ -272,235 +272,235 @@ export default [
    {
      title: 'Kabutops Board',
      imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/kabutops.jpg',
-     category: ['board'],
+     category: ['board','commission'],
      date: '11-18-2018'
+   },
+   {
+     title: 'Leaf Pattern',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/leaf+pattern.jpg',
+     category: ['marker'],
+     date: '05-30-2017'
+   },
+   {
+     title: 'Leaf Dude 1',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/leafdude.1.jpg',
+     category: ['marker'],
+     date: '07-20-2017'
+   },
+   {
+     title: 'Leaf Dude 10',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/leafdude.10.jpg',
+     category: ['marker'],
+     date: '02-21-2018'
+   },
+   {
+     title: 'Leaf Dude 12',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/leafdude.12.jpg',
+     category: ['marker'],
+     date: '04-10-2018'
+   },
+   {
+     title: 'Leaf Dude 13',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/leafdude.13.jpg',
+     category: ['marker'],
+     date: '05-08-2018'
+   },
+   {
+     title: 'Leaf Dude 14',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/leafdude.14.jpg',
+     category: ['marker'],
+     date: '05-11-2018'
+   },
+   {
+     title: 'Leaf Dude 15',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/leafdude.15.jpg',
+     category: ['marker'],
+     date: '05-16-2018'
+   },
+   {
+     title: 'Leaf Dude 3',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/leafdude.3.jpg',
+     category: ['marker'],
+     date: '02-19-2018'
+   },
+   {
+     title: 'Leaf Dude 4',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/leafdude.4.jpg',
+     category: ['marker'],
+     date: '02-27-2018'
+   },
+   {
+     title: 'Leaf Dude 7',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/leafdude.7.jpg',
+     category: ['marker'],
+     date: '01-25-2018'
+   },
+   {
+     title: 'Leaf Dude 8',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/leafdude.8.jpg',
+     category: ['marker'],
+     date: '01-23-2018'
+   },
+   {
+     title: 'Lexi Portrait',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/lexi.jpg',
+     category: ['portrait','pencil'],
+     date: '05-07-2016'
+   },
+   {
+     title: 'Lily Watercolor',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/lily+watercolor.png',
+     category: ['painting'],
+     date: '06-06-2019'
+   },
+   {
+     title: 'Mermaid',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/mermaid.jpg',
+     category: ['marker'],
+     date: '10-02-2017'
+   },
+   {
+     title: 'Michael 1',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/michael.1.jpg',
+     category: ['portrait'],
+     date: '11-18-2014'
+   },
+   {
+     title: 'Michael 2',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/michael.2.jpg',
+     category: ['portrait'],
+     date: '11-18-2014'
+   },
+   {
+     title: 'Michael 3',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/michael.3.jpg',
+     category: ['portrait'],
+     date: '11-18-2014'
+   },
+   {
+     title: 'Michael 4',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/michael.4.jpg',
+     category: ['portrait'],
+     date: '11-18-2014'
+   },
+   {
+     title: 'Michael 5',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/michael.5.jpg',
+     category: ['portrait'],
+     date: '11-18-2014'
+   },
+   {
+     title: 'Michael 6',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/michael.6.jpg',
+     category: ['portrait'],
+     date: '11-18-2014'
+   },
+   {
+     title: 'Michael 7',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/michael.7.jpg',
+     category: ['portrait'],
+     date: '11-18-2014'
+   },
+   {
+     title: 'Michael 8',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/michael.8.jpg',
+     category: ['portrait'],
+     date: '11-18-2014'
+   },
+   {
+     title: 'Pangolin with a Pancake',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/pangolin+pancake.jpg',
+     category: ['marker','commission'],
+     date: '03-24-2018'
+   },
+   {
+     title: 'Radial Rose',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/radial+flowers.jpg',
+     category: ['marker','pencil'],
+     date: '06-13-2018'
+   },
+   {
+     title: 'Radial Sunflower',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/radial+sunflower.jpg',
+     category: ['marker','pencil'],
+     date: '06-17-2018'
+   },
+   {
+     title: 'Rose Board Blanket',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/rose+board+blanket.jpg',
+     category: ['board'],
+     date: '03-23-2018'
+   },
+   {
+     title: 'Rose Board Palm',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/rose+board.jpg',
+     category: ['board'],
+     date: '03-24-2018'
+   },
+   {
+     title: 'Rose Watercolor',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/rose+watercolor.jpg',
+     category: ['painting'],
+     date: '01-09-2019'
+   },
+   {
+     title: 'Squid',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/squid.jpg',
+     category: ['marker','pencil'],
+     date: '10-02-2017'
+   },
+   {
+     title: 'Succulent',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/succulent.jpg',
+     category: ['pencil'],
+     date: '05-30-2017'
+   },
+   {
+     title: 'Three Pets',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/three+pets.jpg',
+     category: ['pencil','portrait','commission'],
+     date: '05-13-2019'
+   },
+   {
+     title: 'Underwater Pattern',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/underwater+pattern.jpg',
+     category: ['marker'],
+     date: '05-30-2017'
+   },
+   {
+     title: 'Van Gogh Peaches',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/van+gogh+peaches.jpg',
+     category: ['painting'],
+     date: '07-15-2015'
+   },
+   {
+     title: 'Watercolor Leaf Face',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/watercolor+leaf+face.jpg',
+     category: ['painting'],
+     date: '05-19-2019'
+   },
+   {
+     title: 'Watercolor Profile',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/watercolor+profile.jpg',
+     category: ['painting'],
+     date: '02-19-2019'
+   },
+   {
+     title: 'Weird Bubbles',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/weird+bubbles.jpg',
+     category: ['marker'],
+     date: '07-10-2018'
+   },
+   {
+     title: 'Weird Moose',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/weird+moose.jpg',
+     category: ['marker'],
+     date: '10-02-2017'
+   },
+   {
+     title: 'Watercolor Fruits',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/watercolor+fruits.jpg',
+     category: ['painting'],
+     date: '04-15-2019'
    }
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // },
-  // {
-  //   title: '',
-  //   imageUrl: '',
-  //   category: [''],
-  //   date: '--20'
-  // }
 ]

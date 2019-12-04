@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-import Button from '../components/button';
 import HomePageContent from '../components/home-page-content';
 import TopBar from '../components/top-bar';
 import PageHeader from '../components/page-header';
