@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import moment from 'moment';
 // imported libraries
 
-import TopBar from '../components/top-bar';
 import PageHeader from '../components/page-header';
 import ImageBox from '../components/image-box';
 
@@ -31,9 +30,6 @@ export default class Gallery extends Component {
     return (
       // html begins here, it is mixed with javascript
       <div className='container-background'>
-        {/* active is a custom property, it is made up */}
-        <TopBar active={this.props.location.pathname} />
-        {/* brackets mean variables */}
         <PageHeader text='Gallery' />
 
         <div className='gallery-content'>
