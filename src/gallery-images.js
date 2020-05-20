@@ -502,5 +502,35 @@ export default [
      imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/watercolor+fruits.jpg',
      category: ['painting'],
      date: '04-15-2019'
+   },
+   {
+     title: 'Captain Falcon',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/captain+falcon+apr+3.jpg',
+     category: ['marker'],
+     date: '04-03-2020'
+   },
+   {
+     title: 'Yoshi FEM',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/yoshi+edit+apr+5.jpg',
+     category: ['marker'],
+     date: '04-05-2020'
+   },
+   {
+     title: 'Sonic the Hedgehog',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/sonic+edit+may+5.jpg',
+     category: ['pencil','marker'],
+     date: '05-05-2020'
+   },
+   {
+     title: 'Luigi',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/luigi+edit+apr+15.jpg',
+     category: ['marker'],
+     date: '04-15-2020'
+   },
+   {
+     title: 'Hand Drawing',
+     imageUrl: 'https://s3-us-west-1.amazonaws.com/images.danielle.blue/hands+edit+may+13.jpg',
+     category: ['pencil','commission'],
+     date: '05-13-2020'
    }
 ]

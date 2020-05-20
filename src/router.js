@@ -5,6 +5,7 @@ import Home  from './containers/home.js';
 import Gallery from './containers/gallery.js';
 import Contact from './containers/contact.js';
 import TopBar from './components/top-bar';
+import Footer from './components/footer';
 
 export default class Router extends Component {
   render() {
